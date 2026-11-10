@@ -122,5 +122,17 @@
 }
     }
 
+    
+/* Ajuste exclusivo de guitarra y batería */
+
+.course-image img[src*="guitarra.jpg"],
+.course-image img[src*="bateria.jpeg"] {
+    width: 98%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+
+
 
 
